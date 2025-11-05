@@ -1,0 +1,12 @@
+#p1 {
+    color: #ccccff;
+}
+/* when wanting css to target a specific area; make an id into html element, 
+then in css make your selector start with a hashtag then the id attribute.
+Example abovem shows i made the first para. element with an id of p1, then 
+i brought it into here (css), put a #before it and now my color change only
+applies to that area.*/
+p{
+   background-color: #1c5d1f;
+   color: white;
+}
