@@ -20,3 +20,41 @@ span {
     background-color: yellow;
     color: black;
 }
+#b1, 
+#b2 {
+    font-weight: bold;
+    color: black;
+}
+#i1, 
+#i2 {
+    font-style: italic;
+    color: black;
+}
+#b3 {
+    font-weight: bold;
+    color: black;
+}
+#u1, 
+#u2 {
+    color: black;
+    text-decoration: underline;
+}
+#c1 {
+    color: black;
+    font-size: 35px;
+}
+#c2 {
+    color: black;
+    font-size: 12px;
+}
+#c3 {
+    font-size: 48px;
+    color: black;
+}
+#c4 {
+    color: black;
+    font-size: 24px;
+}
+#p3 {
+    text-align: center;
+}
