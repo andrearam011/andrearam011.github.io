@@ -4,7 +4,40 @@
     margin: 24px;
     padding: 24px;
 }
+.color {
+    margin: 0px;
+    padding: 24px;
+}
 #p1-c1 {
     background-color: #412234;
     color: white;
+}
+#p1-c2 {
+    background-color: #6D466B;
+    color: white;
+}
+#p1-c3 {
+    background-color: #EAD7D7;
+}
+#p2-c1 {
+    background-color: #0E7c7B;
+    color: white;
+}
+#p2-c2 {
+    background-color: #D4F4DD;
+}
+#p2-c3 {
+    background-color: #D62246;
+    color: white;
+}
+#p3-c1 {
+    background-color: #708B75;
+    color: white;
+}
+#p3-c2 {
+    background-color: #3D315B;
+    color: white;
+}
+#p3-c3 {
+    background-color: #F8F991;
 }
