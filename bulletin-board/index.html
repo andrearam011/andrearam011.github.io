@@ -3,15 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
+        >
         <title>Bulletin Board Project</title>
         <link href="css/setup.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" data-meal-prep>
     </head>
     <body>
         <div id="bulletin-board">
-            <!-- ADD YOUR HTML CODE INSIDE OF THIS DIV -->
-
-            
+            <div class="post-it no-padding pink">
+                <img 
+                    src="images/dog.jpg" 
+                    alt="Dog"
+                    class="rotate"
+                >
+            </div>
+            <div class="transparent"></div>
+            <div class="post-it">
+                <h1 id="reminder">
+                    Book Disney Trip!!!
+                </h1>
+            </div>
+            <div class="transparent"></div>
+            <div class="post-it purple">
+                <p id="chores">CHORES</p>
+                <ul>
+                    <li class="bullet" id="done">clean room</li>
+                    <li class="bullet">laundry</li>
+                    <li class="bullet">do dishes</li>
+                </ul>
+            </div>
+            <div class="transparent"></div>
+            <div class="post-it pink" id="m-rotate">
+                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                <p id="memo">
+                    Date night!
+                    <br>
+                    7:oo pm
+                    <br>
+                    Alamo Draft House
+                </p>
+            </div>
+            <br>
+            <div class="transparent">
+                <img 
+                    src="images/couple.jpg" 
+                    alt="Couple" 
+                    id="couple-rotate"
+                >
+            </div>
+            <div class="transparent"></div>
+            <div class="post-it">
+                <div class="post-it purple" id="affirm">
+                    <h3>Affirmations</h3>
+                    <p>
+                        I trust my journey.
+                        <i class="fa-solid fa-heart"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="transparent"></div>
+            <div class="post-it">
+                <h3>Grocery List</h3>
+                <ul>
+                    <li>Brocolli</li>
+                    <li>onions</li>
+                    <li>lime</li>
+                    <li>turkey</li>
+                    <li>bread</li>
+                    <li>chicken</li>
+                    <li>pasta</li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

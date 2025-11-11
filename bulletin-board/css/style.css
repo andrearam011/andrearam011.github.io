@@ -1,8 +1,69 @@
-/*
-    NOTE TO STUDENTS: 
-
-    This is the file you should be writing your CSS in 
-    for the Bulletin Board assignment.
-
-    Good luck, and have fun!
-*/
+.post-it {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 150px;
+    font-family: cursive;
+    margin: 24px;
+    aspect-ratio: 1 / 1;
+    padding: 24px;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;  
+}
+.no-padding {
+    padding: 0px;
+    aspect-ratio: auto;
+}
+.rotate {
+    rotate: -5deg;
+}
+.pink {
+    background-color: rgb(218, 88, 107);
+}
+#reminder {
+    rotate: 10deg;
+    font-size: -25px;
+    text-align: center;
+    font-style: normal;
+}
+.purple {
+    background-color: rgb(183, 120, 183);
+}
+#chores {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.bullet {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#done {
+    text-decoration: line-through;
+}
+.transparent {
+    background-color: transparent;
+    display: inline-block;
+    width: 150px;
+    font-family: cursive;
+    margin: 24px;
+    aspect-ratio: 1 / 1;
+    padding: 24px;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+#memo {
+    text-align: center;
+}
+#m-rotate {
+    rotate: -15deg;
+}
+#couple-rotate {
+    rotate: 15deg;
+}
+#affirm {
+    rotate: -25deg;
+}
