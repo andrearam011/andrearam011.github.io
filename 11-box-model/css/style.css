@@ -1,0 +1,45 @@
+div {
+    border: 2px solid firebrick;
+    /* 
+    Margin/Padding Shorthand Values
+
+    One Value:Targets All Four Sides
+    2 values: first value is top/bottom, second valuse is left/right.
+    3 values: first value is top, second top is left & right, third value is 
+    bottom.
+    4 values: first value is top, second is right, third is bottom, fourth is 
+    left.
+    */
+    margin: 24px 0px;
+    padding: 24px;
+    background-color: lavender;
+}
+a {
+    text-decoration: none;
+    color: lavender;
+    font-weight: bold;
+    background-color: firebrick;
+    padding: 10px;
+    margin: 24px;
+    display: inline-block;
+    /*
+        Border-raidues Shorthand Values
+        - One Value: Targets all four sides.
+        - Two Values: First value is top-left/bottom-right,
+        second value is top-right/bottom-left.
+        - Three Values: First value is top-left,
+        second value is top-right/bottom-left, third value is bottom-right.
+        - Four Values: First value is top-left, second value is top-right,
+        third value is bottomright, and fourth value is bottom-left.
+    */
+    border-radius: 25px;
+}
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*
+        If you element is a square (the width and height are equal to each other
+        .)  You can create a perfect circle using border-radius: 50% 
+    */
+}

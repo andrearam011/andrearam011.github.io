@@ -1,0 +1,29 @@
+#f1 {
+    width: 350px;
+    height: 250px;
+    border: 15px solid lightskyblue;
+    background-color: #eeeeee;
+    margin: 120px;
+    padding: 24px;
+}
+#f2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    padding: 24px;
+    margin: 120px;
+    border: 15px solid firebrick;
+}
+#f3 {
+    border: 15px solid orange;
+    background-color: #eeeeee;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #128594;
+    font-style: italic;
+    margin: 120px;
+    padding: 120px;
+    display: inline-block;
+}
