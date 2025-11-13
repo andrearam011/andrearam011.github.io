@@ -1,0 +1,39 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+   
+}
+#navbar a {
+    color: white;
+}
+#navbar .warning {
+    color: orange;
+}
+/* 
+    another manner to target the contact into turning orange would also be by:
+    #navbar a.warning {
+    }
+    THIS AS YOU NOTICE IS A HYBRID OF A DESCENDANT AND COMPOUUND SELECTOR
+*/
+p a {
+    color: teal;
+}
+p.warning {
+    background-color: crimson;
+}
+p.warning a {
+    color: white;
+}
+ul {
+    color: green;
+}
+ul a {
+    color: lime;
+}
+ul p a {
+    color: purple;
+}
+ul div a {
+    color: lightblue;
+}
