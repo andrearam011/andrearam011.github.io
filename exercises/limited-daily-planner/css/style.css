@@ -1,0 +1,67 @@
+#morning {
+    border: 5px solid  pink;
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#afternoon {
+    border: 5px solid yellowgreen;
+    background-color: yellowgreen;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#evening {
+    border: 5px solid orange;
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#morning li.completed,
+#afternoon li.completed,
+#evening li.completed {
+    text-decoration: line-through;
+}
+#morning .important,
+#afternoon .important,
+#evening .important {
+    font-weight: bold;
+    color: firebrick;
+}
+#evening li.completed.important {
+    background-color: yellow;
+}
+#morning .button,
+#afternoon .button,
+#evening .button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid darkblue;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 4px;
+}
+#morning ul,
+#afternoon ul,
+#evening ul {
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 15px;
+}
+#morning h2,
+#afternoon h2,
+#evening h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+#morning li,
+#afternoon li,
+#evening li {
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 30px 30px;
+}
