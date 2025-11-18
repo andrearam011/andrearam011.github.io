@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Monofett&family=Orbitron:wght@400..900&family=Silkscreen:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+}
+.center-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green-container {
+    background-color: #7ed37e;
+    padding: 36px 0px;
+}
+#h1 {
+    color: #22609a;
+    font-family: "Monofett", monospace;
+    font-size: 60px;
+    text-align: center;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.center-column a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.img-background {
+    background-color: salmon;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px #d44232;
+}
+.center-column p {
+    padding: 50px;
+    text-align: center;
+}
+.btn .b1 {
+    background-color: #c4b11f;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px #6b621d ;
+    display: block;
+    margin: 0px auto;
+    width: max-content;
+}
+.text-box-1 {
+    background-color: aqua;
+    border-radius: 45px;
+    margin: 70px;
+    border: 2px solid #000000;
+    
+}
+.purple-container {
+    background-color: #9772ba;
+    padding: 36px 0px;
+}
+#h2 {
+    color: #a10b1f;
+    font-family: "Monofett", monospace;
+    font-size: 60px;
+    text-align: center;
+}
+.btn .b2 {
+    background-color: #3282b7;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px #222c57 ;
+    display: block;
+    margin: 0px auto;
+    width: max-content;
+}
+.img-background-2 {
+    background-color: #b8fa72;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px #6ec245;
+}
+.text-box-2 {
+    background-color: #dcac46;
+    border-radius: 45px;
+    margin: 70px;
+    border: 2px solid #000000;
+}
+#h3 {
+    color: #9fbc2b;
+    font-family: "Monofett", monospace;
+    font-size: 60px;
+    text-align: center
+}
+.text-box-3 {
+    background-color: #cee498;
+    border-radius: 45px;
+    margin: 70px;
+    border: 2px solid #000000;
+}
+.red-container {
+     background-color: rgb(186, 80, 59);
+    padding: 36px 0px;
+}
+.img-background-3 {
+    background-color: #4f779f;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px #1e4778;
+}
+.btn .b3 {
+    background-color: #643463;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px #222c57 ;
+    display: block;
+    margin: 0px auto;
+    width: max-content;
+}
+.btn .b3:hover,
+.btn .b2:hover,
+.btn .b1:hover {
+    background-color: transparent;
+    color: #d3f708;
+}

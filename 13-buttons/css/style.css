@@ -36,4 +36,5 @@
 .wide .btn:hover {
     background-color: transparent;
     color: #e17a14;
+    padding: 10px 20px;
 }
