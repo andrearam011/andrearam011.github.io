@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    margin: 0px auto;
+    max-width: 1200px;
+    width: 90vw;
+}
+/* 
+gap affects the spacing w/in cards, display: flex is what forces the divs to
+be in-line 
+*/
+.card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+.card {
+    border: 5px solid #cf9cfc;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    flex: 1;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px, 0px, 0px;
+}
+.sbs {
+    display: flex;
+}
