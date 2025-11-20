@@ -36,4 +36,27 @@ be in-line
 }
 .sbs {
     display: flex;
+    margin: 50px;
+    align-items: center;
+    gap: 36px
+}
+.sbs img {
+    width: 100%;
+}
+.sbs .imgc, 
+.sbs .content {
+    flex: 1;
+}
+.sbs h2 {
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+}
+.sbs p {
+    margin-top: 16px;
+    font-size: 20px;
+}
+.sbs .imgc {
+    border: 20px outset greenyellow;
+    padding: 10px;
 }

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    margin: 0px auto;
+    max-width: 1200px;
+    width: 90vw;
+}
+.dessert-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 36px;
+    background-color: #eee;
+}
+.imgd-content, 
+.recipe-content {
+    flex: 1;
+}
+.dessert-img, 
+.carousel-img {
+    width: 100%;
+}
+.carousel-img {
+    height: 300px;
+    object-fit: cover;
+}
+.text-marg {
+    margin-right: 15px;
+}
+.carousel-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1,
+.card2, 
+.card3 {
+    flex: 1;
+}
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#btn-container {
+    background-color: black;
+    padding: 10px 10px;
+    display: inline-block;
+}
