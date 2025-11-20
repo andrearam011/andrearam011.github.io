@@ -15,7 +15,8 @@ body {
     gap: 36px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
     background-color: #eee;
 }
 .imgd-content, 
@@ -27,8 +28,11 @@ body {
     width: 100%;
 }
 .carousel-img {
-    height: 300px;
+    height: 350px;
     object-fit: cover;
+}
+.dessert-img {
+    height: 100%;
 }
 .text-marg {
     margin-right: 15px;
@@ -44,6 +48,13 @@ body {
 .card3 {
     flex: 1;
 }
+.dessert-container {
+    padding: 20px;
+}
+.carousel-container {
+    padding: 20px;
+    background-color: #eee;
+}
 .btn {
     text-decoration: none;
     font-weight: bold;
@@ -54,4 +65,25 @@ body {
     background-color: black;
     padding: 10px 10px;
     display: inline-block;
+}
+.card-p {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+.dessert-container {
+    align-items: center;
+    height: 600px;
+}
+.imgd-content {
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-container {
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.sub-heading {
+    text-align: center;
+    font-weight: bolder;
 }
