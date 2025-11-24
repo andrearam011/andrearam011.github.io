@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+header {
+    position: sticky;
+    top: 0px;
+}
+nav #logo {
+    margin-right: auto;
+}
+header #nav-bar {
+    background: linear-gradient(to bottom, #ac88a5, #80166e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-bar #logo {
+    text-decoration: none;
+    color: rgb(246, 243, 243);
+    font-size: 45px;
+    padding: 15px;
+    font-weight: bold;
+}
+#nav-bar .link, 
+#nav-bar .btn {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#nav-bar .btn {
+    background-color: white;
+    color: rgb(200, 54, 127);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
