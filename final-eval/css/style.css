@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 10px dashed rgb(12, 136, 20);
+    box-shadow: 10px 10px 5px 5px #215a21;
+}
+body {
+    background-color: #1fa97b;
+    padding: 48px 0px;
+}
+.single-column {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-container {
+    display: flex;
+    width: 40vw;
+    margin: 0px auto;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.anchor-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0px;
+}
+.flex-img {
+    flex: 1;
+}
+.flex-text {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+.flex-second-img {
+    flex: 1;
+}
+.anchor-one {
+    flex: 1;
+}
+.anchor-two {
+    flex: 1;
+}
+.ppl, 
+.occasion, 
+.event,
+.date, 
+.tagline,
+.info,
+.address, 
+.inquiry {
+    text-align: center;
+}
+.flex-img h2,
+.flex-img h1,
+.flex-second-img h2,
+.flex-second-img h1 {
+    text-align: center;
+}
+.info {
+    font-size: 15px;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(214, 172, 6);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 10px 10px 5px 5px rgb(88, 88, 10);
+    
+}
+.occasion, 
+.event {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.anchor-one, 
+.anchor-two {
+    padding: 10px;
+}
+.vs {
+    color: firebrick;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.team, 
+.ppl {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
