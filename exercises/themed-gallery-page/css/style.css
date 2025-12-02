@@ -38,6 +38,11 @@ img {
     font-weight: 400;
     font-style: normal;
 }
+#centered-hero .hero-content p {
+    color: #e8f3e5;
+    font-weight: bold;
+    margin: 0px;
+}
 #layout {
     width: 90%;
     max-width: 900px;
