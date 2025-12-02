@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Ephesis&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/filmstrip.jpg);
+    width: 100%;
+    background-size: cover;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 10px solid #8b8383;
+}
+#centered-hero {
+    background-image: url(../images/femme-fatale.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#centered-hero .hero-content {
+    color: #eaeced;
+    text-align: center;
+    font-size: 65px;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#centered-hero .hero-content h1 {
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#layout {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    margin-top: 35px;
+}
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    margin-bottom: 35px;
+}
