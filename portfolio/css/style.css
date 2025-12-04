@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poiret+One&display=swap');
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 14px;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.centered-hero {
+    background-image: url(..//images/hi-res-hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content .text-box {
+    background-color: #eeeeeeb0;
+    padding: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    border: 5px solid #fff;
+    font-size: 35px;
+}
+.hero-content .text-box h1{
+    font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-box #hero.btn {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 35px;
+    color: #fff;
+    font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.layout {
+    max-width: 800px;
+    width: 90%;
+    margin: 48px auto;
+   
+}
+.layout .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.layout {
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
+}.sub-title {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: #eee;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carousel-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eee;
+    padding: 35px;
+    margin-top: 35px;
+}
+.card-one, 
+.card-two, 
+.card-three {
+    flex: 1;
+    gap: 5px
+}
+.card-one .card-content {
+    background-image: url(../images/about.jpg);
+    aspect-ratio: 16/9;
+    background-size: cover;
+}
+.card-two .card-content {
+    background-image: url(../images/services.jpg);
+   aspect-ratio: 16/9;
+    background-size: cover;
+}
+.card-three .card-content {
+    background-image: url(../images/contact.jpg);
+    aspect-ratio: 16/9;
+    background-size: cover;
+}
+.card-titles {
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 10px;
+    background-color: #19161678;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.card-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+@media screen and (max-width: 667px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        text-decoration: underline;
+        font-size: 20px;
+    }
+}@media screen and (max-width: 685px) {
+    .hero-content .text-box h1,
+    .hero-content .text-box #hero.btn {
+        font-size: 26px;
+    }
+    .layout .gallery {
+        grid-template-columns: 1fr;
+    }
+    .carousel-container {
+        display: block;
+    }
+    .layout #gal.sub-title {
+        font-size: 24px;
+    }
+}
